@@ -1,0 +1,31 @@
+header {
+    height: 72px;
+    display: flex;
+    padding: 16px 64px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+header nav {
+    display: flex;
+    gap: 32px;
+}
+
+header nav a {
+    color: black;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+     
+}
+
+
+
+button {
+    padding: 8px 20px;
+    color: white;
+    background-color: black;
+    font-size: 17px;
+    line-height: 24px;
+}
