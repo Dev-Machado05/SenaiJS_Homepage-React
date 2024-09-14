@@ -1,6 +1,8 @@
 // import Card from "./components/card/index.jsx";
 import Count from "./class/hooks/useState/count/index.jsx";
-
+import Accordion from "./class/hooks/useState/accordion/index.jsx";
+import Example from "./class/hooks/useEffect/example/index.jsx";
+import CountEffect from "./class/hooks/useHooks/CountEffect/index.jsx";
 /* import Home from "./pages/home/index"
  
 export default function App() {
@@ -22,6 +24,12 @@ export default function App() {
 
 export default function App() {
   return (
-    <Count/>
+    <>
+      <Count/><br /><br />
+      <Accordion/><br /><br />
+      <Example/><br /><br /><br />
+      <h3>Ao clicar no botão aparecera um mensagem no console</h3>
+      <CountEffect/>
+    </>
   )
 }
