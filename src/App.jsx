@@ -1,4 +1,5 @@
-import Card from "./components/card/index.jsx";
+// import Card from "./components/card/index.jsx";
+import Count from "./class/hooks/useState/count/index.jsx";
 
 /* import Home from "./pages/home/index"
  
@@ -8,13 +9,19 @@ export default function App() {
    )
  } */
 
+// export default function App() {
+//   return (
+//     <Card 
+//       title="Titulo"
+//       description="Descrição" 
+//       url="https://picsum.photos/200/300"
+//       imgAlt="sla q imagem é essa"
+//     />
+//   )
+// }
+
 export default function App() {
   return (
-    <Card 
-      title="Titulo"
-      description="Descrição" 
-      url="https://picsum.photos/200/300"
-      imgAlt="sla q imagem é essa"
-    />
+    <Count/>
   )
 }
