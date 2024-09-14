@@ -3,7 +3,7 @@ import Count from "./class/hooks/useState/count/index.jsx";
 import Accordion from "./class/hooks/useState/accordion/index.jsx";
 import Example from "./class/hooks/useEffect/example/index.jsx";
 import CountEffect from "./class/hooks/useHooks/CountEffect/index.jsx";
-import PokemonAPI from "./class/hooks/useHooks/PokemonAPI/index.jsx";
+import PokemonAPI from "./class/hooks/useHooks/PokemonApi/index.jsx";
 /* import Home from "./pages/home/index"
  
 export default function App() {
